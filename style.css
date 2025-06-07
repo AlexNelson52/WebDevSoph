@@ -22,6 +22,9 @@ body {
     gap: 30px;
     align-items: center;
 }
+.logopic1 {
+    max-width: 50px;
+}
 
 .pageh1 {
     text-align: center;
