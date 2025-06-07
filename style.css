@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    background-color: #fcfcfc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #519c4f;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.pageh1 {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0 0 10px 0;
+    color: #0231c;
+}
+
+h2 {
+    font-size: 36px;
+    color: #0231c;
+    text-align: center;
+    margin: 40px 0 30px 0;
+}
+
+h3 {
+    font-size: 24px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.welcome{
+    text-align: center;
+    background-color: #519c4f;
+    color: white;
+    padding: 80px 20px;
+}
+
+.features {
+    padding: 50px 20px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.classescon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+}
+
+.class {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    border: 2px solid #e0e0e0;
+}
+
+.gallery1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.gallery {
+    background-color: white;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.about-section {
+    padding: 0 20px 50px 20px;
+}
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.contactcon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #0231c;
+}
+
+
+
+
+
