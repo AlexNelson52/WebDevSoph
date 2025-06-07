@@ -26,28 +26,33 @@ body {
 .pageh1 {
     text-align: center;
     padding: 40px 20px;
-    background-color: #f5f5f5;
+    background-color: #519c4f;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 40px;
     margin: 0 0 10px 0;
-    color: #0231c;
+    color: #00231C;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h2 {
-    font-size: 36px;
-    color: #0231c;
+    font-size: 25px;
+    color: #00231C;
     text-align: center;
     margin: 40px 0 30px 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 h3 {
     font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 p {
     font-size: 16px;
     line-height: 1.6;
+    color: #00231C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .welcome{
     text-align: center;
@@ -71,6 +76,7 @@ p {
     justify-content: center;
     gap: 30px;
     padding: 50px 20px;
+    
 }
 
 .class {
@@ -80,6 +86,7 @@ p {
     text-align: center;
     width: 300px;
     border: 2px solid #e0e0e0;
+    background-color: #519c4f;
 }
 
 .gallery1 {
@@ -97,6 +104,7 @@ p {
     border-radius: 10px;
     overflow: hidden;
     text-align: center;
+    color: #00231C;
 }
 
 
@@ -108,6 +116,9 @@ p {
     margin: 0 auto;
     text-align: center;
     padding: 20px;
+    background-color: #519c4f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
 }
 
 .contactcon {
@@ -117,6 +128,7 @@ p {
     max-width: 1000px;
     margin: 0 auto;
     justify-content: center;
+    background-color: #519c4f;
 }
 
 .form {
@@ -127,6 +139,7 @@ p {
     flex: 1;
     min-width: 300px;
     max-width: 500px;
+    background-color: #519c4f;
 }
 
 label {
@@ -134,7 +147,8 @@ label {
     margin-top: 20px;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #0231c;
+    color: #00231C;
+    background-color: #519c4f;
 }
 
 
